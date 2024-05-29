@@ -4,11 +4,13 @@ import openai
 import json
 from datetime import datetime
 
-def write_responses_to_file(responses, filename="results.json"):
+def write_list_of_dictionaries_to_file(list, filename):
     with open(filename, 'a') as f:
-        for response in responses:
-            json.dump(response.to_dict(), f)
-            f.write('\n')
+        f.write('[\n')
+        for dictionary in list:
+            json.dump(dictionary, f)
+            f.write(',\n')
+        f.write(']')
 
 def LastLetterYes(input):
     for i in range(10):

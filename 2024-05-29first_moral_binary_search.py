@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 
 print("Experiment number: ")
-experiment_number = input()
+experiment_number = 2
 
 print("Experiment description: ")
 experiment_description = input()
