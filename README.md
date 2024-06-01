@@ -3,7 +3,7 @@ A research repository to rigorously determine the subjective moral weights of di
 ## Why does this exist?
 I want to find out whether LLMs have moral values, what they are, and whether they make any sense.
 
-Manual testing so far has suggested that GPT-3.5 doesn't, but GPT-4o does. Specifically, *GPT-4o says it would kill up to 23 million chickens to save the life of 1 human*.
+Manual testing so far has suggested that GPT-3.5 doesn't have consistent moral values, but GPT-4o does. Specifically, *GPT-4o says it would kill up to 23 million chickens to save the life of 1 human*.
 That seems important!
 
 The results I have so far look like this:
