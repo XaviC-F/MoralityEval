@@ -27,6 +27,7 @@ Any other final character will not be accepted."`
 $pip install openai==1.30.4
 $pip install backoff==2.2.1
 ```
-<t> to install the necessary packages, replacing `/path/to/requirements.txt` with the full path on your computer
+to install the necessary packages, replacing `/path/to/requirements.txt` with the full path on your computer
 
 3. Create a new file called `config.py` in the main directory, add `OPENAI_API_KEY='[your OpenAI API key]' to the file, and save. This allows you to use the OpenAI API.
+4. Run one of the experiment scripts (again, would not recommend doing this, the code's not finished)
