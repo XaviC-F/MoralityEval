@@ -1,2 +1,2 @@
 openai==1.30.4
-backoff=2.2.1
+backoff==2.2.1
